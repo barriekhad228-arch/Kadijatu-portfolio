@@ -49,7 +49,45 @@ header nav ul li a {
 }
 
 #hero{
-    background-color: aqua;
+    background-color: rgb(33, 111, 111);
+}
+
+#hero p {
+    color: #eeecec;
+    font-size: 16px;
+    line-height: 25px;
+    width: 800px;
+
+}
+
+#hero h1 {
+    font-size: 55px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#hero h4 {
+    color: #eeecec;
+    font-size: 30px;
+    font-weight: 100px;
+    margin-bottom: 12px;
+}
+
+#hero button {
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: teal;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background-color: #eeecec;
 }
 
 #about{
