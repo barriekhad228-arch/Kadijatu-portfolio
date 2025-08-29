@@ -16,12 +16,32 @@ body {
 }
 
 header{
-    background-color: black;
+    background-color: white;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
+}
+
+header .logo{
+    color: #444;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #444;
+    text-decoration: none;
 }
 
 #hero, #about, #porfolio, #contact{
